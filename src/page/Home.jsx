@@ -20,7 +20,7 @@ const Home = () => {
                     </figure>
                     <div className="contenido-card">
                         <h3>Diseño Gráfico</h3>
-                        <p>Podemos crear la identidad corporativa de tu empresa. Diseño, Maquetación de folletos, Catálogos, Papelería y mucho más.</p>
+                        <p>Podemos crear la identidad corporativa de tu empresa. Diseño, Maquetación de folletos, Catálogos, Papelería y mucho más. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed exercitationem neque commodi eum reiciendis id et sapiente, odio ad consequatur velit enim! Eos, beatae velit? Eum dolorum beatae labore.</p>
                         <button className="btn" onClick={handleButtonClick}>Leer Más</button>
                     </div>
                 </div>

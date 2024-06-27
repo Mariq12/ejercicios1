@@ -14,7 +14,7 @@ const Home2 = () => {
                     </figure>
                     <div className="contenido-card">
                         <h3>Diseño Gráfico</h3>
-                        <p>Podemos crear la identidad corporativa de tu empresa. Diseño, Maquetación de folletos, Catálogos, Papelería y mucho más.</p>
+                        <p>Podemos crear la identidad corporativa de tu empresa. Diseño, Maquetación de folletos, Catálogos, Papelería y mucho más. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facilis vitae molestiae quia accusantium eos ea impedit! Nesciunt ad rerum repellendus dicta illo commodi, ab ratione dignissimos obcaecati rem. Nostrum sapiente, nam perspiciatis in labore non dolorem! Dicta expedita amet nisi minus numquam ad in, aliquam reprehenderit. Assumenda, placeat consectetur?</p>
                         <Link to="/" className="btn">Leer Más</Link>
                     </div>
                 </div>

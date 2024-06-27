@@ -9,6 +9,7 @@ const Header = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/home2">Home2</Link></li>
                     <li><Link to="/home3">Home3</Link></li>
+                    <li><Link to="/home4">Home4</Link></li>
                 </ul>
             </nav>
         </header>
