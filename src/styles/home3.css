@@ -1,0 +1,47 @@
+.home3-container{
+    display: flex;
+}
+.home3-card{
+    flex: 50%;
+    margin:10px;
+    border:5px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.home3-card h3{
+    text-align: center;
+    color: #7a7a7a;
+    margin: 10px;
+}
+
+.home3-card .hom3-content{
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px;
+}
+
+.home3-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b5b5b;
+    padding: 10px;
+}
+
+/* *BUTTON* */
+.home3-card .btn{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #3a3a3a;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.home3-card .btn:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
