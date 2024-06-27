@@ -1,0 +1,74 @@
+.home6-main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: whitesmoke;
+    align-items: center;
+}
+
+.home6-container{
+    display: flex;
+    
+}
+
+.home6-card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.home6-card:hover{
+    cursor: pointer;
+}
+
+.home6-img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.home6-card:hover .home6-img {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.home6-content{
+    position: absolute;
+    height: 80px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    bottom: 0;
+    background: rgba(27, 27, 27, 0.5);
+    color: white;
+    transition: .5s;
+}
+
+.home6-card:hover .home6-content{
+    height: auto;
+    bottom: 10px;
+    background: black;
+}
+
+.home6-card h1 {
+    margin: 10px;
+    font-size: 40px;
+}
+
+.home6-card p {
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.home6-card:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
+ .home6-card span {
+    font-weight: bold;
+}
+

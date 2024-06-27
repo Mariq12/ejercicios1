@@ -1,0 +1,63 @@
+.home5-main {
+    background-color: black;
+    padding: 20px;
+}
+
+.home5-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home5-card {
+    background-color: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.home5-card:hover {
+    background-color: rgba(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.1s ease;
+    transform: translateY(-3%);
+}
+
+.home5-card-img {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.image1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058');
+}
+
+.image2 {
+    background-image: url('https://img.freepik.com/foto-gratis/hombre-negocios-financiero-inspector-secretaria-haciendo-informe-calculo-o-comprobacion-balance-inspector-servicio-rentas-internas-revisando-documento-concepto-auditoria_1423-126.jpg?size=626&ext=jpg');
+}
+
+.image3 {
+    background-image: url('https://image.freepik.com/foto-gratis/desarrollo-programadores-desarrollo-tecnologias-diseno-codificacion-sitios-web_18497-1090.jpg');
+}
+
+.home5-card h2 {
+    padding: 10px;
+}
+
+.home5-card p {
+    padding: 10px;
+}
+
+.home5-card-btn {
+    background-color: #000000;    
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
