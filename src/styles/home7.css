@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.hom7-main{
+    background: rgb(5, 180, 93);
+    font-family: 'Roboto', sans-serif;
+}
+
+.hom7-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
