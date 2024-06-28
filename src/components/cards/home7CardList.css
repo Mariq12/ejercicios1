@@ -1,0 +1,8 @@
+.home7-cardList{
+    max-width: 450px; 
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}

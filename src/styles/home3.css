@@ -4,7 +4,10 @@
 .home3-card{
     flex: 50%;
     margin:10px;
-    border:5px solid #000;
+    border: 4px solid;
+    border-image: linear-gradient(rgb(241, 241, 3), rgb(3, 194, 22)) 1;
+    clip-path: inset(0 round 10px);
+    border-radius: inset 10px;
     display: flex;
     flex-direction: column;
 }
