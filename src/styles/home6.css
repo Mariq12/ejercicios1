@@ -1,4 +1,4 @@
-.home6-main{
+.home6-main {
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -6,37 +6,42 @@
     align-items: center;
 }
 
-.home6-container{
+.home6-container {
     display: flex;
-    
 }
 
-.home6-card{
+.home6-card {
     height: 500px;
+    width: 350px;
     margin: 50px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
+    position: relative;
+    border-radius: 3px;
 }
 
-.home6-card:hover{
+.home6-card:hover {
     cursor: pointer;
 }
 
-.home6-img{
-    height: 500px;
-    width: 350px;
-    border-radius: 3px;
+.home6-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
+    border-radius: 3px;
 }
 
 .home6-card:hover .home6-img {
     transform: scale(1.1) rotate(-3deg);
 }
 
-.home6-content{
+.home6-content {
     position: absolute;
     height: 80px;
-    width: 350px;
+    width: 100%; 
     padding: 6px;
     box-sizing: border-box;
     bottom: 0;
@@ -45,9 +50,9 @@
     transition: .5s;
 }
 
-.home6-card:hover .home6-content{
+.home6-card:hover .home6-content {
     height: auto;
-    bottom: 10px;
+    bottom: 5px;
     background: black;
 }
 
@@ -68,7 +73,6 @@
     opacity: 1;
 }
 
- .home6-card span {
+.home6-card span {
     font-weight: bold;
 }
-
