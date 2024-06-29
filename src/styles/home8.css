@@ -1,0 +1,114 @@
+.home8-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.home8-img-1 {
+    display: inline;
+    width: 200px;
+    vertical-align: top;
+
+    aspect-ratio: 1/1;
+}
+
+.home8-card-1-1{
+    width: 200px;
+
+}
+.home8-img-1-1 {
+    display: inline;
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+
+    aspect-ratio: 1/1;
+}
+
+.home8-img-2 {
+    display: inline;
+    width: 200px;
+    vertical-align: top;
+
+    aspect-ratio: 0.5;
+}
+
+.home8-card-2-2 {
+    width: 200px;
+}
+
+.home8-img-2-2 {
+    display: inline;
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+
+    aspect-ratio: 0.5;
+}
+
+.home8-img-3 {
+    display: inline;
+    width: 200px;
+    vertical-align: top;
+
+    aspect-ratio: 1;
+}
+
+.home8-card-3-3 {
+    width: 200px;
+}
+
+.home8-img-3-3 {
+    display: inline;
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+
+    aspect-ratio: 1;
+}
+
+.home8-img-4 {
+    display: inline;
+    width: 200px;
+    vertical-align: top;
+
+    aspect-ratio: 1/0.5;
+}
+
+.home8-card-4-4 {
+    width: 200px;
+}
+
+.home8-img-4-4 {
+    display: inline;
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+
+    aspect-ratio: 1/0.5;
+}
+
+.home8-img-5 {
+    display: inline;
+    width: 200px;
+    vertical-align: top;
+
+    aspect-ratio: 16/9;
+}
+
+.home8-card-5-5 {
+    width: 200px;
+}
+
+.home8-img-5-5 {
+    display: inline;
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+
+    aspect-ratio: 16/9;
+}
+h4{
+    color: blue;
+    font-weight: bold;
+}

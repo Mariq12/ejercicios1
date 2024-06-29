@@ -7,6 +7,7 @@ import Home4 from './page/Home4';
 import Home5 from './page/Home5';
 import Home6 from './page/Home6';
 import Home7 from './page/Home7';
+import Home8 from './page/Home8';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/home5" element={<Home5 />} />
         <Route path="/home6" element={<Home6 />} />
         <Route path="/home7" element={<Home7 />} />
+        <Route path="/home8" element={<Home8 />} />
       </Routes>
     </Router>
   );
